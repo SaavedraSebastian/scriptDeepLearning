@@ -3,14 +3,12 @@ import os
 import subprocess
 
 def reverse_video_opencv_audio(input_path, output_path):
-    """Revertir video con OpenCV y procesar audio por separado"""
+
     
-    # Primero extraer el audio
     temp_audio = "temp_audio.wav"
     audio_cmd = f'ffmpeg -i "{input_path}" -q:a 0 -map a "{temp_audio}" -y'
     subprocess.run(audio_cmd, shell=True, capture_output=True)
     
-    # Procesar video con OpenCV (igual que antes)
     cap = cv2.VideoCapture(input_path)
     
     fps = cap.get(cv2.CAP_PROP_FPS)
@@ -27,7 +25,6 @@ def reverse_video_opencv_audio(input_path, output_path):
     cap.release()
     frames.reverse()
     
-    # Guardar video sin audio
     temp_video = "temp_video.mp4"
     fourcc = cv2.VideoWriter_fourcc(*"mp4v")
     out = cv2.VideoWriter(temp_video, fourcc, fps, (width, height))
@@ -36,11 +33,9 @@ def reverse_video_opencv_audio(input_path, output_path):
         out.write(frame)
     out.release()
     
-    # Combinar video revertido con audio original
     mix_cmd = f'ffmpeg -i "{temp_video}" -i "{temp_audio}" -c:v copy -c:a aac -y "{output_path}"'
     subprocess.run(mix_cmd, shell=True, capture_output=True)
     
-    # Limpiar archivos temporales
     if os.path.exists(temp_audio):
         os.remove(temp_audio)
     if os.path.exists(temp_video):
