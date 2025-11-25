@@ -1,26 +1,32 @@
 import json
 import os
+import glob
 
 def format_compact_json(obj, indent=2):
-    
     if isinstance(obj, dict):
         items = []
         for key, value in obj.items():
             formatted_value = format_compact_json(value, indent)
             items.append(f'{" " * indent}"{key}": {formatted_value}')
         return "{\n" + ",\n".join(items) + "\n}"
+    
     elif isinstance(obj, list):
+      
         if all(isinstance(item, (int, float)) for item in obj):
             return "[" + ", ".join(map(str, obj)) + "]"
         else:
             items = [format_compact_json(item, indent + 2) for item in obj]
             return "[\n" + ",\n".join(items) + f"\n{' ' * indent}]"
+    
     elif isinstance(obj, str):
         return json.dumps(obj, ensure_ascii=False)
+    
     else:
         return json.dumps(obj)
 
+
 def expand_tabs(input_path):
+ 
     with open(input_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -31,12 +37,14 @@ def expand_tabs(input_path):
     tabs = data.get("tabs", [])
 
     if not tabs:
-        raise ValueError("El archivo JSON no contiene la sección 'tabs'.")
+        raise ValueError(f"ERROR: El archivo '{input_path}' no contiene 'tabs'.")
+
 
     tabs_sorted = sorted(tabs, key=lambda x: x["frame"])
 
     expanded_tabs = []
     last = tabs_sorted[0]
+
 
     for f in range(1, total_frames + 1):
         found = next((t for t in tabs_sorted if t["frame"] == f), None)
@@ -60,24 +68,40 @@ def expand_tabs(input_path):
 
     output_folder = "etiquetas"
     os.makedirs(output_folder, exist_ok=True)
+
     output_path = os.path.join(output_folder, f"{name}.json")
 
     with open(output_path, "w", encoding="utf-8") as f:
         formatted_json = format_compact_json(output_data)
         f.write(formatted_json)
 
-    print(f"Archivo expandido generado en: {output_path}")
+    print(f"Archivo expandido: {output_path}")
+
+
+def process_all_files():
+    print("=== EXPANSOR DE TABS (MÚLTIPLES ARCHIVOS) ===")
+
+    json_files = glob.glob(os.path.join("json", "*.json"))
+
+    if not json_files:
+        print("No se encontraron archivos en la carpeta 'json/'.")
+        return
+
+    print(f"Encontrados {len(json_files)} archivos para expandir:\n")
+
+    for f in json_files:
+        print(" →", os.path.basename(f))
+
+    print("\nProcesando...\n")
+
+    for f in json_files:
+        try:
+            expand_tabs(f)
+        except Exception as e:
+            print(f"Error procesando {f}: {e}")
+
+    print("\nProceso completado.")
+
 
 if __name__ == "__main__":
-    print("=== Expansor de TABS ===")
-    
-    file_name = input("Escribe el nombre del archivo JSON (ej: V101.json): ").strip()
-
-    input_path = os.path.join("json", file_name)
-
-    if not os.path.exists(input_path):
-        print(f"No se encontró el archivo en: {input_path}")
-        print("Asegúrate de colocar tus JSON dentro de la carpeta: json/")
-        exit(1)
-
-    expand_tabs(input_path)
+    process_all_files()
