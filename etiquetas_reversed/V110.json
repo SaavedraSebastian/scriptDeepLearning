@@ -1,0 +1,55 @@
+{
+  "name": "V110",
+  "fps": 23,
+  "frames": 67,
+  "song_data": {
+    "tuning": "EADGBE",
+    "capo": 2,
+    "beats/second": 83,
+    "compas": [4, 4]
+  },
+  "tabs": [
+    {
+      "frame": 1,
+      "freets": [-1, -1, 2, 0, -1, -1],
+      "actions": [-1, -1],
+      "chord": "D"
+    },
+    {
+      "frame": 8,
+      "freets": [2, 3, -2, -1, -1, -1],
+      "actions": [-1, 0],
+      "chord": "D"
+    },
+    {
+      "frame": 19,
+      "freets": [-1, -1, -1, 0, -1, -1],
+      "actions": [-1, -1],
+      "chord": "D"
+    },
+    {
+      "frame": 34,
+      "freets": [2, 3, 2, -1, -1, -1],
+      "actions": [-1, -1],
+      "chord": "D"
+    },
+    {
+      "frame": 40,
+      "freets": [-1, -1, -1, 0, -1, -1],
+      "actions": [-1, -1],
+      "chord": "D"
+    },
+    {
+      "frame": 43,
+      "freets": [-1, -1, -1, -1, -1, -1],
+      "actions": [-1, 0],
+      "chord": "D"
+    },
+    {
+      "frame": 63,
+      "freets": [2, 3, 2, 0, -1, -1],
+      "actions": [2, -1],
+      "chord": "D"
+    }
+  ]
+}

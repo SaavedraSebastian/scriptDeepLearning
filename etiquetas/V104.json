@@ -1,0 +1,110 @@
+{
+    "name": "V104",
+    "fps": 23,
+    "frames": 68,
+
+    "song_data": {
+        "tuning": "EADGBE",
+        "capo": 2,
+        "beats/second": 83,
+        "compas": [4, 4]
+    },
+
+    "tabs": [
+        {
+            "frame": 2,
+            "freets": [-1, 3, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+        {
+            "frame": 6,
+            "freets": [0, -1, -1, -1, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+          {
+            "frame": 11,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+          {
+            "frame": 16,
+            "freets": [2, -1, -1, -1, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+          {
+            "frame": 23,
+            "freets": [-1, -1, -1, -1, -1, -1],
+            "actions": [-1, 0],
+            "chord": "D"
+        },
+          {
+            "frame": 27,
+            "freets": [-1, 2, -1, -1, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+          {
+            "frame": 29,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+          {
+            "frame": 33,
+            "freets": [-1, 3, -1, -1, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+          {
+            "frame": 38,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": ""
+        },
+          {
+            "frame": 42,
+            "freets": [-1, 5, -1, -1, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+          {
+            "frame": 46,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+          {
+            "frame": 52,
+            "freets": [2, -1, -1, -1, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+          {
+            "frame": 56,
+            "freets": [-1, -1, -1, -1, -1, -1],
+            "actions": [-1, 0],
+            "chord": "D"
+        },
+          {
+            "frame": 58,
+            "freets": [-1, 2, 2, -1, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+          {
+            "frame": 64,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        }
+    ]
+}
+        
+
+            
+        
+    

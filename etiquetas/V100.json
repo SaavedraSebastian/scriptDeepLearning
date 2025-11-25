@@ -1,0 +1,67 @@
+{
+    "name": "V100",
+    "fps": 23,
+    "frames": 59,
+
+    "song_data": {
+        "tuning": "EADGBE",
+        "capo": "2",
+        "beats/second": "83",
+        "compas": [4, 4]
+    },
+
+    "tabs": [
+        {
+            "frame": 1,
+            "freets": [-1, -1, -1, -0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+        {
+            "frame": 9,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+         {
+            "frame": 18,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+         {
+            "frame": 26,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+         {
+            "frame": 35,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        }, {
+            "frame": 43,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+         {
+            "frame": 51,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+         {
+            "frame": 59,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        }
+    ]
+}
+        
+
+            
+        
+    

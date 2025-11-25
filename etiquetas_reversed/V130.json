@@ -1,0 +1,61 @@
+{
+  "name": "V130",
+  "fps": 24,
+  "frames": 68,
+  "song_data": {
+    "tuning": "EADGBE",
+    "capo": 2,
+    "beats/second": 83,
+    "main_compas": [4, 4]
+  },
+  "tabs": [
+    {
+      "frame": 1,
+      "freets": [-1, 3, 2, 0, -1, -1],
+      "actions": [0, 0],
+      "chord": "D"
+    },
+    {
+      "frame": 10,
+      "freets": [2, 3, 2, 0, -1, -1],
+      "actions": [0, 0],
+      "chord": "D"
+    },
+    {
+      "frame": 19,
+      "freets": [-1, 3, 2, 0, -1, -1],
+      "actions": [0, 0],
+      "chord": "D"
+    },
+    {
+      "frame": 23,
+      "freets": [2, 3, 2, -1, -1, -1],
+      "actions": [0, 0],
+      "chord": "D"
+    },
+    {
+      "frame": 28,
+      "freets": [2, 3, 2, -1, -1, -1],
+      "actions": [1, 0],
+      "chord": "D"
+    },
+    {
+      "frame": 45,
+      "freets": [2, 3, 2, 0, -1, -1],
+      "actions": [0, 0],
+      "chord": "D"
+    },
+    {
+      "frame": 54,
+      "freets": [-1, -1, -1, 0, -1, -1],
+      "actions": [-1, -1],
+      "chord": "D"
+    },
+    {
+      "frame": 63,
+      "freets": [2, 3, 2, 0, -1, -1],
+      "actions": [2, -1],
+      "chord": "D"
+    }
+  ]
+}

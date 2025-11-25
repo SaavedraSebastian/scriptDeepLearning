@@ -1,0 +1,103 @@
+{
+  "name": "V108",
+  "fps": 23,
+  "frames": 72,
+  "song_data": {
+    "tuning": "EADGBE",
+    "capo": 2,
+    "beats/second": 83,
+    "compas": [4, 4]
+  },
+  "tabs": [
+    {
+      "frame": 5,
+      "freets": [-1, -1, -1, -1, -1, 3],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 10,
+      "freets": [-1, -1, -1, 4, -1, -1],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 13,
+      "freets": [-1, -1, -1, -1, -1, -1],
+      "actions": [-1, 0],
+      "chord": "G"
+    },
+    {
+      "frame": 18,
+      "freets": [-1, -1, -1, 2, -1, -1],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 22,
+      "freets": [-1, -1, -1, -1, -1, 3],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 26,
+      "freets": [-1, -1, -1, 4, -1, -1],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 30,
+      "freets": [-1, -1, -1, -1, -1, 3],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 35,
+      "freets": [-1, -1, -1, 0, -1, -1],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 39,
+      "freets": [-1, -1, -1, -1, -1, 3],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 43,
+      "freets": [-1, -1, 0, -1, -1, -1],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 49,
+      "freets": [-1, -1, -1, -1, -1, -1],
+      "actions": [-1, 0],
+      "chord": "G"
+    },
+    {
+      "frame": 53,
+      "freets": [-1, -1, 2, -1, -1, -1],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 56,
+      "freets": [-1, -1, -1, -1, -1, 3],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 60,
+      "freets": [-1, 2, -1, -1, -1, -1],
+      "actions": [-1, -1],
+      "chord": "G"
+    },
+    {
+      "frame": 65,
+      "freets": [-1, 0, -1, -1, -1, 3],
+      "actions": [-1, -1],
+      "chord": "G"
+    }
+  ]
+}

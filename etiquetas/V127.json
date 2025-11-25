@@ -1,0 +1,75 @@
+{
+    "name": "V127",
+    "fps": 24,
+    "frames": 66,
+
+    "song_data": {
+        "tuning": "EADGBE",
+        "capo": 2,
+        "beats/second": 83,
+        "main_compas": [4, 4]
+    },
+
+    "tabs": [
+         {
+            "frame": 4,
+            "freets": [-1, 3, 2, 0, -1, -1],
+            "actions": [0, 0],
+            "chord": "D"
+        },
+         {
+            "frame": 13,
+            "freets": [-1, -1, -1, -1, 0, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+         {
+            "frame": 21,
+            "freets": [-1, 3, 2, 0, -1, -1],
+            "actions": [-1, 0],
+            "chord": "D"
+        },
+         {
+            "frame": 30,
+            "freets": [-1, 3, 2, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+         {
+            "frame": 35,
+            "freets": [-1, 3, 2, -1, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+         {
+            "frame": 39,
+            "freets": [-1, -1, -1, 0, -1, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        },
+         {
+            "frame": 48,
+            "freets": [-1, 3, 2, -1, -1, -1],
+            "actions": [-1, -1],
+            "chord":"D"
+        },
+         {
+            "frame": 56,
+            "freets": [3, 3, 2, -1, -1, -1],
+            "actions": [-1, 0],
+            "chord": "D"
+        },
+         {
+            "frame": 65,
+            "freets": [-1, -1, -1, -1, 0, -1],
+            "actions": [-1, -1],
+            "chord": "D"
+        }
+        
+    ]
+}
+        
+
+            
+        
+    
