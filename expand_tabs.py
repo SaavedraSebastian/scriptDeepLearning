@@ -66,7 +66,7 @@ def expand_tabs(input_path):
         "tabs": expanded_tabs
     }
 
-    output_folder = "etiquetas"
+    output_folder = "etiquetas_expandidas"
     os.makedirs(output_folder, exist_ok=True)
 
     output_path = os.path.join(output_folder, f"{name}.json")
