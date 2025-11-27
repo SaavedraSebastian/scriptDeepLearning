@@ -40,7 +40,7 @@ def create_reverse_json(input_path):
         print(f"Saltando {filename}: No tiene formato V001.json")
         return
 
-    new_number = original_number + 49
+    new_number = original_number + 50
     new_name = f"V{new_number:03d}.json"
 
     total_frames = data.get("frames", 0)
